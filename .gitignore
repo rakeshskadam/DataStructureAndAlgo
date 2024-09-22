@@ -1,6 +1,5 @@
 target/
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -17,9 +16,7 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
-=======
-=======
->>>>>>> 00ce564 (Init)
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -56,9 +53,5 @@ build/
 .vscode/
 
 ### Mac OS ###
-<<<<<<< HEAD
 .DS_Store
->>>>>>> 00ce564 (Init)
-=======
-.DS_Store
->>>>>>> 00ce564 (Init)
+
