@@ -10,17 +10,17 @@ where c is celsius value.
 ## Arithmetic Progression and Geometric Progression
 ### 1. Arithmetic Progression (AP)
 
-a<sub>n</sub> = a + (n - 1)d <br/>
+>a<sub>n</sub> = a + (n - 1)d <br/>
 // where a first number,  d is difference between first and second.
 
 ### 2. Geometric Progression (GP) or Geometric Series (GS)
 
-a<sub>n</sub> =  a<sub>1</sub> . r<sup>(n-1)</sup>
+>a<sub>n</sub> =  a<sub>1</sub> . r<sup>(n-1)</sup>
 
 ###### Sum of geometric series.
  
                 
-S<sub>n</sub> = a (1 - r<sup>n</sup>) / (1 - r)
+>S<sub>n</sub> = a (1 - r<sup>n</sup>) / (1 - r)
 
 
 LCM and HCF(GCD)
@@ -40,17 +40,17 @@ consider two numbers 10 and 45.
 
 **Dividend =  divisor  *  quotient + reminder;**
 
-```java
-step1) 
-       45 = 10 * 4 + 5; 
 
-step2) now assign the values as below. and continume same process until remider become zero.
+>step.1) 
+>       45 = 10 * 4 + 5; 
+>
+>step.2) now assign the values as below. and continume same process until remider become zero.
        dividend = divisor, divisor = reminder
-       
-       10 = 5 * 2 + 0;
-In this step reminder become zero, so the GCD of both the numbers is previous step reminder that is 5
+>
+>       10 = 5 * 2 + 0;
+>In this step reminder become zero, so the GCD of both the numbers is previous step reminder that is 5
 Hence the GCD of 10 and 45 is 5
-```
+
 <br/>
 
 
@@ -59,7 +59,7 @@ LCM : LCM stands for Least Common Multiple. The lowest number which is exactly d
 
 we can calculate LCM with the use of GCD.
  
-***LCD(a,b) = (a*b) / GCD(a,b)**
+>LCD(a,b) = (a*b) / GCD(a,b)
 
 **General Note**: LCM will be always greater than or equal the larger of two numbers.
 
