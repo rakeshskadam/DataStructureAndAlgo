@@ -1,20 +1,19 @@
-Basic Math and other formulas: 
+## Basic Math and other formulas: 
 
-Celsius to farhenheit 
+### Celsius to farhenheit 
 ```java
 F = (c * 9/5) + 32
 
 where c is celsius value.
 ```
-Arithmetic Progression and Geometric Progression
-------------- 
 
-#### Arithmetic Progression (AP)
+## Arithmetic Progression and Geometric Progression
+### 1. Arithmetic Progression (AP)
 
 a<sub>n</sub> = a + (n - 1)d <br/>
 // where a first number,  d is difference between first and second.
 
-#### Geometric Progression (GP) or Geometric Series (GS)
+### 2. Geometric Progression (GP) or Geometric Series (GS)
 
 a<sub>n</sub> =  a<sub>1</sub> . r<sup>(n-1)</sup>
 
