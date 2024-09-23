@@ -1,21 +1,20 @@
-package com.rakkadam.leetpractice.dsa.list;
+package com.rakkadam.leetpractice.math.palindrome;
 
 import com.rakkadam.Util.Util;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /*
  * @author rakkadam
  * @createdAt 22/09/24
  *
  */
-public class Leet2217_FindPalindromeWithFixedLength {
+public class M_Leet2217_FindPalindromeWithFixedLength {
 
     // https://www.youtube.com/watch?v=zAB3NMw53WA
+    // https://leetcode.com/problems/find-palindrome-with-fixed-length/description/
+
 
     public static void main(String[] args) {
-        Leet2217_FindPalindromeWithFixedLength obj = new Leet2217_FindPalindromeWithFixedLength();
+        M_Leet2217_FindPalindromeWithFixedLength obj = new M_Leet2217_FindPalindromeWithFixedLength();
         Util.printLongArr(obj.kthPalindrome(new int[]{1,2,3,4}, 8));
     }
     public long[] kthPalindrome(int[] queries, int intLength) {
